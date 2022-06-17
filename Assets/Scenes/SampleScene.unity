@@ -314,8 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ed79e21b441c147be66e681e408987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
+  target: {fileID: 543450652192987715}
+  offset: {x: 0, y: 2.4, z: -34.4}
 --- !u!1 &1699000783
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +587,8 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652192987715}
   - component: {fileID: 5866666020396531769}
+  - component: {fileID: 5866666020396531770}
+  - component: {fileID: 5866666020396531771}
   m_Layer: 0
   m_Name: Karakter
   m_TagString: Untagged
@@ -1466,6 +1468,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!54 &5866666020396531770
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148522975481}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!65 &5866666020396531771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148522975481}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.7958503, z: 1}
+  m_Center: {x: 0, y: 1.246166, z: 0}
 --- !u!1 &6038414692411262042
 GameObject:
   m_ObjectHideFlags: 0
