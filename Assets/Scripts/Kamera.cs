@@ -9,7 +9,7 @@ public class Kamera : MonoBehaviour
 
     void Start()
     {
-        offset = transform.position - target.position;
+        offset = transform.position - target.position;//Kamera ve  player arasındaki mesafeyi hesaplar
     }
 
     void LateUpdate()
