@@ -6,7 +6,7 @@ public class karakter : MonoBehaviour
 {
    private void FixedUpdate()
    {
-        transform.Translate(Vector3.forward * .5f * Time.deltaTime);
+        transform.Translate(Vector3.forward * .5f * Time.deltaTime);//karakterin ileri gitmesi
    }
 
    private void Update() 
