@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject hedef;
+    public GameObject PrefabKarakter;
+    public GameObject DogmaNoktasi;
+    public GameObject VarisNoktasi;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Instantiate(PrefabKarakter,DogmaNoktasi.transform.position,Quaternion.identity);
+        }
     }
 }
