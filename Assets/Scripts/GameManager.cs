@@ -15,9 +15,9 @@ public class GameManager : MonoBehaviour
 
      void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))//A tuşuna basınca şunu yap
         {
-            Instantiate(PrefabKarakter,DogmaNoktasi.transform.position,Quaternion.identity);
+            Instantiate(PrefabKarakter,DogmaNoktasi.transform.position,Quaternion.identity);//Ana karakter arkasında alt karakter oluştur.
         }
     }
 }
