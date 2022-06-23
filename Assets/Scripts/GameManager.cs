@@ -5,13 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameObject hedef;
-    public GameObject PrefabKarakter;
+    public GameObject PrefabKarakter;//Oluşturulacak alt karakter Prefab'ı
     public GameObject DogmaNoktasi;
     public GameObject VarisNoktasi;
-    void Start()
-    {
-        
-    }
 
      void Update()
     {
