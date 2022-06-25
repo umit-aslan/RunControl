@@ -11,14 +11,14 @@ public class karakter : MonoBehaviour
 
    private void Update() 
    {
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0))//Mouse sol tık a basınca
         {
-            if (Input.GetAxis("Mouse X") < 0)
+            if (Input.GetAxis("Mouse X") < 0) //Mouse X değeri sıfırdan küçük ise
             {
                 transform.position =Vector3.Lerp(transform.position,new Vector3(transform.position.x-.1f,
                  transform.position.y, transform.position.z), .3f);
             }
-            else if (Input.GetAxis("Mouse X") > 0)
+            else if (Input.GetAxis("Mouse X") > 0)//Mouse X değeri sıfırdan büyük ise
             {
                  transform.position =Vector3.Lerp(transform.position,new Vector3(transform.position.x+.1f,
                  transform.position.y, transform.position.z), .3f);
